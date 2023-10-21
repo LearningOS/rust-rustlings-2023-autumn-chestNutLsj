@@ -6,9 +6,8 @@
 // for a hint.
 
 
-
 fn main() {
-    let a = "101";
+    let a = [1];
 
     if a.len() >= 100 {
         println!("Wow, that's a big array!");

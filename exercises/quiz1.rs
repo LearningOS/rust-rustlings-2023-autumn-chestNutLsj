@@ -15,14 +15,12 @@
 
 
 // Put your function here!
-fn calculate_price_of_apples(num:i32)-> i32 {
-    let mut price:i32;
-    if num <=40{
-        price=2*num;
+fn calculate_price_of_apples(num: i32) ->i32{
+    if num > 40{
+        num
     }else{
-        price=num;
+        num*2
     }
-    return price;
 }
 
 // Don't modify this function!

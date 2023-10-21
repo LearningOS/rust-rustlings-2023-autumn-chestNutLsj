@@ -6,10 +6,9 @@
 // for a hint.
 
 
-
 fn main() {
     let cat = ("Furry McFurson", 3.5);
-    let (name,age) /* your pattern here */ = cat;
+    let (name,age) = cat;
 
     println!("{} is {} years old.", name, age);
 }
